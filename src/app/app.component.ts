@@ -26,4 +26,9 @@ helloElements : QueryList<HelloComponent>
       console.log(hello.name);
     })
   }
+
+
+  parentMethod(msgFromChild){
+alert("you clicked on "+msgFromChild);
+  }
 }
